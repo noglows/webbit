@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 # webbit custom rubygems
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'tailwindcss'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -73,3 +74,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "tailwindcss-rails", "~> 2.0"
