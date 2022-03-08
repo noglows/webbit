@@ -43,7 +43,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # webbit custom rubygems
+gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'mini_magick', '~> 4.5', '>= 4.5.1'
 gem 'tailwindcss'
 
 # Use Sass to process CSS
