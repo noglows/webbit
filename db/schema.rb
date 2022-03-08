@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_03_08_232927) do
+ActiveRecord::Schema[7.0].define(version: 2022_03_08_234039) do
   create_table "submissions", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_08_232927) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "submission_image"
+    t.string "submission_video"
   end
 
   create_table "users", force: :cascade do |t|
