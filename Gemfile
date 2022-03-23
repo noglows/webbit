@@ -47,6 +47,8 @@ gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'mini_magick', '~> 4.5', '>= 4.5.1'
 gem 'tailwindcss'
+gem 'validate_url', '~> 1.0', '>= 1.0.13'
+
 
 # Use Sass to process CSS
 # gem "sassc-rails"
